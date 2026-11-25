@@ -1,0 +1,13 @@
+# Robots.txt for Badel w Bi3
+# https://badelwbi3.com
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://badelwbi3.com/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1

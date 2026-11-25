@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Local database export and generated listings cache
+/data.js
+/public/ads-cache.json
+
+# Environment variables (IMPORTANT: Never commit!)
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Build
+dist/
+build/
